@@ -5,11 +5,6 @@
   box-sizing: border-box;
 }
 
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 html, body {
   width: 100%;
