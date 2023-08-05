@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.progress-container {
+    position: relative;
+    width: 600px;
+}
+  
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+  
+.progress {
+    height: 100%;
+    background-color: rgb(0, 45, 128);
+    border-radius: 5px;
+    transition: width 0.3s;
+}
+  
+.points-container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.point {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.arrow-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.arrow {
+    font-size: 24px;
+    margin: 30px 40px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 80%;
+    transition: .5s;
+}
+
+.arrow:hover {
+    transform: scale(1.08);
+}
