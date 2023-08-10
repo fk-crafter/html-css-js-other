@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(55, 77, 69);
+}
+
+h1 {
+    font-size: 5vw;
+    margin: 0;
+    background-image: url("./photo/bgtest.jpg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
