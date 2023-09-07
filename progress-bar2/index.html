@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>progress bar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+        <button class="btn1" onclick="backBtn()"><i class="fa-solid fa-chevron-left"></i>Previous</button>
+        <ul>
+            <li class="link active" value="1" onclick="activeLink()">1</li>
+            <li class="link" value="2" onclick="activeLink()">2</li>
+            <li class="link" value="3" onclick="activeLink()">3</li>
+            <li class="link" value="4" onclick="activeLink()">4</li>
+            <li class="link" value="5" onclick="activeLink()">5</li>
+            <li class="link" value="6" onclick="activeLink()">6</li>
+            <li class="link" value="7" onclick="activeLink()">7</li>
+            <li class="link" value="8" onclick="activeLink()">8</li>
+        </ul>
+        <button class="btn2" onclick="nextBtn()">Next<i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
