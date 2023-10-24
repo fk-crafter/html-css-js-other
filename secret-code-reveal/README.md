@@ -1,5 +1,5 @@
 exemple :
 
-![Sans titre](https://github.com/fk-crafter/html-css-js-other/assets/127132293/f48a4ef8-9a62-43d9-9f0b-45637bd43d6c)
+![Sans titre](https://github.com/fk-crafter/html-css-js-other/assets/127132293/8c759ba9-f53a-499c-9d6d-059c34306192)
 
-![Sans titre2](https://github.com/fk-crafter/html-css-js-other/assets/127132293/0535fe83-d038-4b8e-94da-1df2299a5d63)
+![Sans titre2](https://github.com/fk-crafter/html-css-js-other/assets/127132293/85860136-07f7-415a-8103-263156a9c1e6)
