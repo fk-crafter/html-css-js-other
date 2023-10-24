@@ -8,8 +8,21 @@ body {
     background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(100, 43, 115, 1) 0%, rgba(4, 0, 4, 1) 90%);
 }
 
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    font-size: 1.5rem;
+    color: hsl(0, 4%, 44%);
+    top: -200px; 
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
 .secret-code {
-    filter: blur(7px);
+    color: rgb(151, 149, 147);
+    filter: blur(7.2px);
     font-size: 50px;
     transition: all 0.3s;
     padding: 0 12px;
@@ -32,9 +45,24 @@ body {
 
 .code-container {
     position: absolute;
-    top: 100%;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    background-color: #252525;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.code-container:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.12);
+}
+
+.code-container {
+    transition: box-shadow 0.3s;
 }
