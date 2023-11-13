@@ -1,3 +1,9 @@
+body {
+  background: #474bff;
+  background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+  background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+}
+
 .wrapper {
     height: 100vh;
     display: grid;
@@ -12,6 +18,9 @@
     border-right: 3px solid;
     font-family: monospace;
     font-size: 2em;
+    color: #2b2f77;
+    color: -webkit-linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+    color: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
   }
   
   @keyframes typing {
