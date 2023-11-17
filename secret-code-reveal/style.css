@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
-    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(100, 43, 115, 1) 0%, rgba(4, 0, 4, 1) 90%);
+    background-image: linear-gradient(45deg, #3498db, #8e44ad);
 }
 
 .title-container {
@@ -14,14 +14,14 @@ body {
     align-items: flex-start;
     position: absolute;
     font-size: 1.5rem;
-    color: hsl(0, 4%, 44%);
-    top: -200px; 
+    color: #ffffff; /* White text */
+    top: -200px;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .secret-code {
-    color: rgb(151, 149, 147);
+    color: #ffd700; /* Golden yellow */
     filter: blur(7.2px);
     font-size: 50px;
     transition: all 0.3s;
@@ -53,7 +53,7 @@ body {
     align-items: center;
     width: 300px;
     height: 150px;
-    background-color: #252525;
+    background: linear-gradient(45deg, #2c3e50, #34495e);
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
