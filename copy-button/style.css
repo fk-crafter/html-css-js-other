@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+    background-image: linear-gradient(45deg, #aee4e0, #66a6ff);
+}
+
+.container {
+    text-align: center;
+}
+
+.input-field {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #66a6ff; /* Border color */
+    border-radius: 5px;
+}
+
+.copy-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4285f4; /* Updated Button color */
+    color: #ffffff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copy-button:hover {
+    background-color: #2a4b8d; /* Updated Button color on hover */
+}
