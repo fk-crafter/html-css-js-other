@@ -3,6 +3,6 @@ const myFunction = () => {
     copyText.select();
     copyText.setSelectionRange(0, 99999);
 
-    .execCommand("copy");
+    document.execCommand("copy");
     alert("texte copié : " + copyText.value)
 };
