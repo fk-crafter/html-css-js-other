@@ -10,7 +10,7 @@ body {
     place-items: center;
   }
   
-  .typing-demo {
+.typing-demo {
     width: 25ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
@@ -22,15 +22,14 @@ body {
     color: -webkit-linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
     color: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
   }
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
+@keyframes typing {
+  from {
+    width: 0
   }
+}
       
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
+@keyframes blink {
+  50% {
+    border-color: transparent
   }
+}
