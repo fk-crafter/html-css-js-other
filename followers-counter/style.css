@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #2980b9, #6dd5fa); /* Dégradé de bleu */
+}
+
+#counter {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff; /* Texte en blanc */
+    margin-right: 10px;
+}
+
+.counter-increase {
+    animation: increase 1s ease-in-out;
+}
+
+@keyframes increase {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
